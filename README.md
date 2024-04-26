@@ -4,7 +4,7 @@
 * Visible label should be matched with programmatically determinable label.
 * Placeholder/title attribute should not be used as the only means of providing label. Intended used of them are providing nonessential information.
 ### Terminologies
-* label for: provide explicit label
+* label for="id": provide explicit label
 * label: provide implicit label.
 
 ## Accessibility Consideration of Group label

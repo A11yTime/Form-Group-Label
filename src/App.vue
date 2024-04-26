@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NativeLabel />
+  <AriaLabel />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NativeLabel from './components/NativeLabel.vue'
+import AriaLabel from './components/AriaLabel.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NativeLabel,
+    AriaLabel
   }
 }
 </script>
